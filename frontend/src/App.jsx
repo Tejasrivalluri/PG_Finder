@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
-import PgListPage from "./pages/PgListPage";
+import PgListPage from "./pages/PglistPage";
 import PgDetailsPage from "./pages/PgDetailsPage";
 import BookingPage from "./pages/BookingPage";
 import FavoritesPage from "./pages/FavoritesPage";
