@@ -17,7 +17,7 @@ import com.srgec.PGFinder.repository.PgListingRepository;
 
 @RestController
 @RequestMapping("/api/pgs")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin("*")
 public class PgController {
 
     @Autowired

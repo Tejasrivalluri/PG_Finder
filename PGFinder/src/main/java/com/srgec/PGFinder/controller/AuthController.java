@@ -19,7 +19,7 @@ import com.srgec.PGFinder.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin("*")
 public class AuthController {
 
     @Autowired
